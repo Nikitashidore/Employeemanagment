@@ -1,0 +1,29 @@
+
+<form [formGroup]="empform" (ngSubmit)="updateEmployee()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">employeeName</label>
+      <input type="email" class="form-control" id="employeeName" aria-describedby="emailHelp" formControlName="employeeName">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">email</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" formControlName="email">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">salary</label>
+    <input type="email" class="form-control" id="salary" aria-describedby="emailHelp" formControlName="salary">
+</div>
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">position</label>
+    <input type="email" class="form-control" id="position" aria-describedby="emailHelp" formControlName="position">
+</div>
+    
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">company</label>
+    <input type="email" class="form-control" id="company" aria-describedby="emailHelp" formControlName="company">
+</div>
+  
+<div class="mb-3">
+    <button  type="submit">Sumbit</button>
+</div>
+
+</form>

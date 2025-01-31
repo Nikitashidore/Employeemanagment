@@ -1,0 +1,14 @@
+.mb-3{
+    width: 50%;
+    margin-left: 20%;
+    
+    border-color: skyblue;
+    border-radius: 10%;
+   
+  }
+  .form-control{
+    border-color: skyblue;
+    border-width: 10%;
+    border-radius: 2%;
+  
+  }
