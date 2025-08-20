@@ -21,8 +21,7 @@ public class EmployeeServiceIMPL  implements EmployeeController{
 	@Override
 	public ResponseEntity<String> addEmployee(Employee emp) {
 		try {
-			dao.save(emp);
-			
+			dao.save(emp);	
 			return new ResponseEntity("Employee saved succefully",HttpStatus.CREATED);
 		} catch (Exception e) {
 			e.printStackTrace();
