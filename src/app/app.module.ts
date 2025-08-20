@@ -9,7 +9,8 @@ import { EditEmployeeComponent } from './Componants/edit-employee/edit-employee.
 import { EmployeeListComponent } from './Componants/employee-list/employee-list.component';
 import { NavBarComponent } from './Componants/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {HttpClient, HttpClientModule} from '@angular/common/http'
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http'
     AddEmployeeComponent,
     EditEmployeeComponent,
     EmployeeListComponent,
-    NavBarComponent
+    NavBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
